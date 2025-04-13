@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Используем современный шрифт */
+    line-height: 1.6;
+    color: #444; /* Более светлый цвет текста для лучшей читаемости */
+    background-image: url(https://avatars.mds.yandex.net/i?id=581b0d59a94a18b45cfea82ff071c333_l-4900921-images-thumbs&n=13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Фиксируем фон для эффекта параллакса */
+}
+
+/* Стили для шапки */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Темный фон для контраста */
+    color: white;
+    padding: 20px 0; /* Увеличиваем отступы */
+    text-align: center;
+    backdrop-filter: blur(15px); /* Увеличиваем размытие фона */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Добавляем тень */
+}
+
+.logo a {
+    font-size: 28px; /* Увеличиваем размер шрифта для логотипа */
+    text-decoration: none;
+    color: #FFD700; /* Золотистый цвет для акцента */
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Увеличиваем отступы между элементами */
+}
+
+nav a {
+    color: #FFD700; /* Золотистый цвет для ссылок */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Добавляем эффект трансформации */
+}
+
+nav a:hover {
+    color: #fff; /* Белый цвет при наведении */
+    transform: scale(1.1); /* Увеличение ссылки при наведении */
+}
+main {
+    padding: 30px; /* Увеличиваем отступы */
+    max-width: 800px;
+    margin: 40px auto; /* Увеличиваем отступы сверху и снизу */
+    background: rgba(255, 255, 255, 0.95); /* Легкий белый фон */
+    border-radius: 12px; /* Увеличиваем скругление углов */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Более заметная тень */
+}
+
+.wrapperForIframe {
+    margin: 15px 0; /* Увеличиваем отступы */
+}
+
+/* Заголовки */
+h2 {
+    color: rgb(50, 50, 80); /* Более темный цвет для заголовка */
+    margin-bottom: 15px; /* Увеличиваем отступ снизу */
+}
+
+h3 {
+    margin: 20px 0; /* Увеличиваем отступы */
+}
+
+ul {
+    margin: 20px 0; /* Увеличиваем отступы */
+    padding-left: 25px; /* Увеличиваем отступ слева для списка */
+}
+footer {
+    text-align: center;
+    padding: 15px 0; /* Увеличиваем отступы */
+    background: rgba(0, 0, 0, 0.7); /* Темный фон */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); /* Добавляем тень */
+}
